@@ -1,0 +1,36 @@
+.quiz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quiz-setup{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+.quiz-setup, h1 {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.quiz-setup, form, h5{
+    margin-bottom: 5px;
+}
+.quiz-setup, form, input{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    width: 68%;
+}
+.quiz-startButton {
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 68%;
+    height: 30px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    border-color: #a88734;
+}
